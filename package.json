@@ -1,0 +1,25 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "test ts-demo",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "jest",
+    "test:coverage":"jest --coverage",
+    "start": "ts-node ./src/main.ts",
+    "dev": "ts-node-dev --respawn ./src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.27",
+    "@types/jest": "^27.0.2",
+    "jest": "28.0.0-alpha.11",
+    "ts-jest": "28.0.0-next.0",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+  }
+}
